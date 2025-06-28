@@ -1,0 +1,36 @@
+name: practice
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.2.0       # For file picking functionality
+  path_provider: ^2.1.1     # For local file storage
+  path: ^1.8.3              # For path manipulation
+  flutter_bloc: ^9.1.1      # For state management (optional)
+  dio: ^5.3.2               # For network requests (optional)
+  shared_preferences: ^2.2.2 # For local storage (optional)
+  open_file: ^3.3.3
+  provider: ^6.1.1
+  url_launcher: ^6.1.7
+  shimmer: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/         # For any custom icons
+    - assets/resumes/       # Directory to store resume files
